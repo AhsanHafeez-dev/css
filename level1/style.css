@@ -1,0 +1,51 @@
+/* h1{
+    color:red;
+    
+}
+p{
+    color: blue;
+}
+
+button{
+    color: yellow;
+    background-color: white;
+}
+
+body{
+    background-color: black;
+} */
+
+* {
+    color: pink;
+    background-color: black;
+
+
+}
+
+/* h1{
+    color: white;
+} */
+
+/* #head1{
+    color: yellow;
+}
+#p2{
+    color: green;
+} */
+
+/* .allbc1{ */
+/* color: white;    class styles are overrided if you have define id styles with # see it by commentinf above 2 tags */
+/* }  */
+
+#box {
+    background-color: blue;
+
+}
+
+.heading {
+    color: red;
+}
+
+#btn {
+    color: pink;
+}
