@@ -1,0 +1,60 @@
+*{
+ padding: 0px;
+ margin: 0px;
+}
+#navbar {
+    /* height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%; */
+    background-color: #0f1111;
+    height: 60px;
+    width: 100%;
+
+}
+
+#amazon {
+    color: #f08804;
+
+    font-size: 25px;
+
+}
+
+#btn {
+    background-color: #f08804;
+    margin-right: 0px;
+}
+
+.nav {
+    margin-right: 187px;
+    margin-bottom: 10px;
+    color: white;
+}
+.content{
+    height: 100px;
+    width: 100px;
+    border:2px black solid;
+    margin-bottom: 20px;
+    
+    
+}
+#contentSection{
+    height: 450px;
+}
+#div1{
+    background-color: rgba(255,0,0,0.5);
+
+}
+#div2{
+    background-color: rgba(0, 255, 0, 0.5);
+
+}
+
+#div3{
+    background-color: rgba(0, 0, 255, 0.5);
+
+}
+
+footer{
+    
+}

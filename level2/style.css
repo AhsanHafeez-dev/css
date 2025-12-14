@@ -1,0 +1,77 @@
+
+/* shorthands are written clockwise mode top-right-bottom-left */
+*{
+    /* color: white; */
+    color: black;
+}
+#d1{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    border: 1px solid red;
+    /* border-radius:100%; */
+    padding: 10px;
+    margin: 20px;
+}
+
+#d2{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    padding: 10px;
+    
+    margin: 20px;
+}
+
+#navbar{
+    /* height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%; */
+    background-color: #0f1111 ;   
+    height: 60px;
+    width: 100%;
+    
+}
+#amazon{
+    color: #f08804;
+
+    font-size: 25px;
+
+}
+
+#btn{
+    background-color: #f08804;
+    margin-right: 0px;
+}
+.nav{
+margin-right: 187px;
+}
+
+div{
+    /* background-color: green; */
+    display: inline;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+button{
+    background-color: red;
+    display: block;
+
+}
+
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: green;
+    /* display: none; */
+    visibility: hidden;
+}
+
+#box3{
+    background-color: rgba(0,0,255,0.5);
+}
