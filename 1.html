@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM |</title>
+    
+</head>
+<body style="background-color: #212121; color: white;">
+    <div class="parent">
+        <div class="day">monday</div>
+        <div class="day">tuesday</div>
+        <div class="day">wed</div>
+        <div class="day">thursday</div>
+    </div>
+    
+    <script>
+        const parent = document.querySelector(".parent");
+        // console.log("last :",parent.children[1]);
+        // parent.children[0].style.backgroundColor="red";
+        // parent.children[1].style.backgroundColor = "green";
+        // parent.children[2].style.backgroundColor = "blue";
+        // // console.log("first",parent.firstElementChild)
+        const first= parent.firstElementChild;
+        // console.log(first.parentElement)
+        // console.log(first.nextElementSibling)
+        // console.log("nodes",parent.childNodes)
+        const div=document.createElement('div');
+        div.className="main";
+        div.id=Math.floor(Math.random()*10)+1;
+        div.setAttribute("title","generared")
+        div.style.backgroundColor="green";
+        div.style.padding="10px";
+        // div.innerText="chai aur code";
+        const node=document.createTextNode("chai aur code");
+        div.appendChild(node);
+        console.log(div)
+        document.body.appendChild(div)
+
+        console.log("astuyu")
+        const last=document.querySelector("li:last-child");
+        console.log("last",last)
+        last.remove();
+        
+    </script>
+</body>
+
+
+</html>
