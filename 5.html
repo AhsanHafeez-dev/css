@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+const xhr=new     XMLHttpRequest()
+xhr.open('GET','https://api.github.com/users/hiteshchoudhary');
+xhr.onreadystatechange=function(){
+    console.log(xhr.readyState);
+    if(xhr.readyState==4){
+        data= JSON.parse(this.responseText);
+        console.log(data)
+        data.login
+        data.avatarUrl
+    }
+    
+}
+xhr.send();
+
+
+
+const img=document.createElement("img");
+const p=document.createElement("p");
+document.body.appendChild(img);
+    document.body.appendChild(p);
+
+const userName="AhsanHafeez-dev"
+const url=`https://api.github.com/users/${userName}`;
+
+const xhr2=new XMLHttpRequest()
+xhr.open("GET",url);
+
+
+    let data = {};
+xhr.onreadystatechange=function(){
+    if(xhr.readyState==4){
+        data=JSON.parse(this.responseText);
+        
+        img.setAttribute("src", data.avatar_url);
+        console.log(data.avatar_url)
+        p.innerHTML = data.login;
+
+
+    }
+}
+
+
+xhr.send();
+
+
+</script>
+
+
+</html>
